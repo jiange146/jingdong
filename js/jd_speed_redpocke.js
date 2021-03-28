@@ -1,7 +1,6 @@
 /*
 京东极速版红包
 自动提现微信现金
-
 活动时间：2021-3-8至2021-3-25
 活动地址：https://prodev.m.jd.com/jdlite/active/31U4T6S4PbcK83HyLPioeCWrD63j/index.html
 活动入口：京东极速版-领红包
@@ -11,14 +10,11 @@
 [task_local]
 #京东极速版红包
 0 0 * * * https://raw.githubusercontent.com/jiange146/jingdong/master/js/jd_speed_redpocke.js, tag=京东极速版红包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-
 ================Loon==============
 [Script]
 cron "0 0 * * *" script-path=https://raw.githubusercontent.com/jiange146/jingdong/master/js/jd_speed_redpocke.js,tag=京东极速版红包
-
 ===============Surge=================
 京东极速版红包 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/jiange146/jingdong/master/js/jd_speed_redpocke.js
-
 ============小火箭=========
 京东极速版红包 = type=cron,script-path=https://raw.githubusercontent.com/jiange146/jingdong/master/js/jd_speed_redpocke.js, cronexpr="0 0 * * *", timeout=3600, enable=true
 */
