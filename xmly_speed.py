@@ -58,7 +58,7 @@ if "XMLY_SPEED_COOKIE" in os.environ:
 devices = []
 notify_time = 19                            # 通知时间,24小时制,默认19
 XMLY_ACCUMULATE_TIME = 1                    # 希望刷时长的,此处置1,默认打开;关闭置0
-UserAgent = "Mozilla/5.0 (Linux; U; Android 10; zh-cn; SEA-AL10 Build/HUAWEISEA-AL10) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1"
+UserAgent = "Dalvik/2.1.0 (Linux; U; Android 10; SEA-AL10 Build/HUAWEISEA-AL10)"
 # 非iOS设备的需要的自行修改,自己抓包 与cookie形式类似
 
 
@@ -105,7 +105,7 @@ def read(cookies):
         'Host': '51gzdhh.xyz',
         'accept': 'application/json, text/plain, */*',
         'origin': 'http://xiaokuohao.work',
-        'user-agent': 'Mozilla/5.0 (Linux; Android 6.0.1; MI 6 Plus Build/V417IR; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.100 Mobile Safari/537.36 iting(main)/1.8.18/android_1 kdtUnion_iting/1.8.18',
+        'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 10; SEA-AL10 Build/HUAWEISEA-AL10)',
         'referer': 'http://xiaokuohao.work/static/web/dxmly/index.html',
         'accept-encoding': 'gzip, deflate',
         'accept-language': 'zh-CN,en-US;q=0.8',
@@ -127,7 +127,7 @@ def read(cookies):
         'content-length': '37',
         'accept': 'application/json, text/plain, */*',
         'origin': 'http://xiaokuohao.work',
-        'user-agent': 'Mozilla/5.0 (Linux; Android 6.0.1; MI 6 Plus Build/V417IR; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.100 Mobile Safari/537.36 iting(main)/1.8.18/android_1 kdtUnion_iting/1.8.18',
+        'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 10; SEA-AL10 Build/HUAWEISEA-AL10)',
         'content-type': 'application/x-www-form-urlencoded',
         'referer': 'http://xiaokuohao.work/static/web/dxmly/index.html',
         'accept-encoding': 'gzip, deflate',
@@ -154,7 +154,7 @@ def read(cookies):
         'Host': '51gzdhh.xyz',
         'accept': 'application/json, text/plain, */*',
         'origin': 'http://xiaokuohao.work',
-        'user-agent': 'Mozilla/5.0 (Linux; Android 6.0.1; MI 6 Plus Build/V417IR; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.100 Mobile Safari/537.36 iting(main)/1.8.18/android_1 kdtUnion_iting/1.8.18',
+        'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 10; SEA-AL10 Build/HUAWEISEA-AL10)',
         'referer': 'http://xiaokuohao.work/static/web/dxmly/index.html',
         'accept-encoding': 'gzip, deflate',
         'accept-language': 'zh-CN,en-US;q=0.8',
@@ -209,7 +209,7 @@ def stage(cookies):
         'Host': 'm.ximalaya.com',
         'Accept': 'application/json, text/plain, */*',
         'Connection': 'keep-alive',
-        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 iting/2.0.9 kdtunion_iting/1.0 iting(main)/2.0.9/ios_1',
+        'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 10; SEA-AL10 Build/HUAWEISEA-AL10)',
         'Accept-Language': 'zh-cn',
         'Referer': 'https://m.ximalaya.com/growth-ssr-speed-welfare-center/page/welfare',
         'Accept-Encoding': 'gzip, deflate, br',
@@ -232,7 +232,7 @@ def stage(cookies):
                 'Content-Type': 'application/json',
                 'Accept': '*/*',
                 'Connection': 'keep-alive',
-                'User-Agent': 'ting_v2.0.9_c5(CFNetwork, iOS 14.3, iPhone9,2)',
+                'User-Agent': 'ting_1.8.42(SEA-AL10,Android29)',
                 'Accept-Language': 'zh-Hans-CN;q=1, en-CN;q=0.9',
                 'Accept-Encoding': 'gzip, deflate, br',
                 'X-Requested-With': 'XMLHttpRequest',
