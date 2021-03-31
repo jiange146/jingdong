@@ -1,3 +1,4 @@
+
 const $ = new Env("从日志中获取互助码并格式化");
 const notifyMsg = ``;
 const notify = $.isNode() ? require("./sendNotify") : "";

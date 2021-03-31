@@ -10,7 +10,7 @@ on:
     watch:
         types: [started]
     repository_dispatch:
-        types: jd_d
+        types: format_share_jd_code1
 
 jobs:
     build:
@@ -48,4 +48,4 @@ jobs:
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   PET_NOTIFY_CONTROL: ${{ github.event.client_payload.PET_NOTIFY_CONTROL || secrets.PET_NOTIFY_CONTROL }}
                   PETSHARECODES: ${{ github.event.client_payload.PETSHARECODES || secrets.PETSHARECODES }}
-                  SYNCURL: https://raw.githubusercontent.com/jiange146/jingdong/master/js/jd_d.js
+                  SYNCURL: https://raw.githubusercontent.com/jiange146/jingdong/master/js/format_share_jd_code1.js
