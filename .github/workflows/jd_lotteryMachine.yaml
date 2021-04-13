@@ -25,7 +25,7 @@ jobs:
             - name: npm install
               run: |
                   npm install
-            - name: "运行 【东东抽奖机】【新店福利】【东东福利屋】【东东生活】【闪购盲盒】【疯狂砸金蛋】"
+            - name: "运行 【京东抽奖机】"
               run: |
                   node onlyOneExecute.js
               env:
