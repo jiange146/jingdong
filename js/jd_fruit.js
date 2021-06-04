@@ -6,6 +6,19 @@
 脚本内置了一个给作者任务助力的网络请求，默认开启，如介意请自行关闭。
 参数 helpAuthor = false
 脚本作者：lxk0301
+[task_local]
+#东东水果
+0 0-23/1 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_fruit.js, tag=东东水果, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+
+=================================Loon===================================
+[Script]
+cron "0 0-23/1 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_fruit.js,tag=东东水果
+
+===================================Surge================================
+东东水果 = type=cron,cronexp="0 0-23/1 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_fruit.js
+
+====================================小火箭=============================
+东东水果 = type=cron,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_fruit.js, cronexpr="0 0-23/1 * * *", timeout=3600, enable=true
 */
 const $ = new Env('东东农场');
 let cookiesArr = [], cookie = '', jdFruitShareArr = [], isBox = false, notify, newShareCodes, allMessage = '';
